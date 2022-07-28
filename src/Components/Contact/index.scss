@@ -1,0 +1,134 @@
+.container{
+    margin-top: 20px;
+}
+.contact-form{
+    width: 100%;
+    margin-top: 20px;
+
+    ul{
+        padding: 0;
+        margin: 0;
+
+        li{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+            clear: both;
+        }
+
+        li.half{
+            width: 49%;
+            margin-left: 2%;
+            float: left;
+            clear: none;
+
+            &:first-child{
+                margin-left: 0;
+            }
+        }
+    }
+
+    input[type ='text'],input[type ='email']{
+        width: 100%;
+        border: 0;
+        background: #115173;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    textarea{
+        width: 100%;
+        border: 0;
+        background: #115173;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        padding: 20px;
+        min-height: 150px;
+        box-sizing: border-box;
+    }
+    .flat-button{
+        color: #ffd700;
+        background: 0 0;
+        font-size: 11px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ffd700;
+        float: right;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: transform 200ms ease-in;
+        z-index: 99;
+
+        &:hover{
+            background: #ffd900c2;
+            border: 1px solid #ffd900c2;
+            color: #115173;
+            transform: scale(1.05) rotate(-3deg);
+        }
+    }
+}
+@media (max-width:879px){
+    .contact-page{
+       display: grid;
+       grid-template-columns: auto;
+       row-gap: 50px;
+       height: 120%;
+       overflow: scroll;
+
+       .text-zone{
+        width: auto;
+        padding: 20px;
+        padding-bottom: 80px;
+
+        .contact-form{
+            width: auto;
+        }
+       }
+       .state-cube-cont{
+        top: 0%;
+        bottom: 34%;
+        left: 28%;
+        right: 0%;
+        margin: auto;
+        width: 100%;
+        transform: scale(.7);
+       }
+    }
+}
+@media (max-height:700px){
+    .state-cube-cont{
+        display: none;
+    }
+    .contact-page{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 50px;
+        height: 120%;
+        overflow: scroll;
+ 
+        .text-zone{
+         width: auto;
+         padding: 20px;
+         padding-bottom: 55px;
+         height: 100%;
+         
+ 
+         .contact-form{
+             width: auto;
+         }
+        }
+    }
+}
