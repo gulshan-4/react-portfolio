@@ -34,7 +34,7 @@ const Sidebar = ()=>{
                     </a>
                 </li>
                 <li>
-                    <a target='_blank' rel="noreferrer" href="https://github.com/00sachin00">
+                    <a target='_blank' rel="noreferrer" href="https://github.com/gulshan-4">
                         <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
                     </a>
                 </li>
