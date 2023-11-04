@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.dcf330e1.css",
-    "main.js": "/static/js/main.7d7fc3c7.js",
+    "main.css": "/static/css/main.12303c86.css",
+    "main.js": "/static/js/main.0eed9ab8.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/Mobile Store3.png": "/static/media/Mobile Store3.f2c8fc542cc8e87de3fa.png",
     "static/media/Mobile Store2.png": "/static/media/Mobile Store2.8077d79ece39ce81f33d.png",
     "static/media/Mobile Store1.png": "/static/media/Mobile Store1.2dbfa30002b044ae90b6.png",
     "static/media/Mobile store 5.png": "/static/media/Mobile store 5.666059612d7b764027fb.png",
-    "static/media/weatherapp.png": "/static/media/weatherapp.2731d614950286038d96.png",
     "static/media/Mobile Store4.png": "/static/media/Mobile Store4.afec6f1981795f9b3ac2.png",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/logo_sub.png": "/static/media/logo_sub.19f3ab25ab15fd848b30.png",
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/Task Manager.png": "/static/media/Task Manager.969073999b662b09c033.png",
     "static/media/logo-s.png": "/static/media/logo-s.bfc9f81846bda5218dab.png",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.dcf330e1.css.map": "/static/css/main.dcf330e1.css.map",
-    "main.7d7fc3c7.js.map": "/static/js/main.7d7fc3c7.js.map",
+    "main.12303c86.css.map": "/static/css/main.12303c86.css.map",
+    "main.0eed9ab8.js.map": "/static/js/main.0eed9ab8.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcf330e1.css",
-    "static/js/main.7d7fc3c7.js"
+    "static/css/main.12303c86.css",
+    "static/js/main.0eed9ab8.js"
   ]
 }
