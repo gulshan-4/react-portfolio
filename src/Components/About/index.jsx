@@ -26,10 +26,10 @@ const About = ()=>{
                     idx={15} />
                 </h1>
 
-                <p>
-                    Hello everyone, my name is sachin, i am aspiring full stack developer. I love making cool websites and projects. i am highly ananlytical and problem solver. I completed my bachelor's degree in Computer Applications in 2022.
+                <p style={{fontSize: 16}}>
+                Welcome to my corner of the web! I'm a passionate full-stack developer with a knack for crafting dynamic and user-centric web applications. I thrive on creating seamless, interactive online experiences. Whether it's architecting robust databases, implementing elegant user interfaces, or optimizing server performance, I'm dedicated to delivering solutions that not only meet your needs, but exceed your expectations.
                 </p>
-                <p>Customer satisfaction is always my priority. Contact me if you need cool and awesome website</p>
+                <p style={{fontSize: 16}}>Let's collaborate and turn your digital visions into reality!</p>
             </div>
 
             <Cube />

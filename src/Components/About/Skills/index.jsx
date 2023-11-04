@@ -1,7 +1,7 @@
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown, faDatabase, faTerminal } from '@fortawesome/free-solid-svg-icons';
-import { faHtml5 , faCss3, faSass , faJsSquare , faReact, faNode, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5 , faCss3, faSass , faJsSquare , faReact, faNode, faGithub, faBitbucket } from '@fortawesome/free-brands-svg-icons';
 
 const Skills = ()=>{
     const openSkills = (e)=>{
@@ -43,8 +43,13 @@ const Skills = ()=>{
                         <FontAwesomeIcon style={{'color':'#C66394'}} icon={faSass} /></li>
                         <li>Javascript&nbsp;
                         <FontAwesomeIcon style={{'color':'#EFD81D'}} icon={faJsSquare} /></li>
-                        <li>React&nbsp;
+                        <li>React.js&nbsp;
                         <FontAwesomeIcon style={{'color':'#00D1F7'}} icon={faReact} /></li>
+                        <li>React Native&nbsp;
+                        <FontAwesomeIcon style={{'color':'#61dbfb'}} icon={faReact} /></li>
+                        <li style={{display: 'flex', alignItems: 'center'}}>
+                        Next.js&nbsp;
+                        <img style={{width: 'auto', height: '16px', borderRadius: '50%'}} src="/nextjs.webp" alt="next.js logo" /></li>
                     </div>
                 </ul>
                 <ul className="backend">
@@ -74,6 +79,8 @@ const Skills = ()=>{
                     <div>
                         <li>github&nbsp;
                         <FontAwesomeIcon style={{'color':'#1A1A22'}} icon={faGithub} /></li>
+                        <li>BitBucket&nbsp;
+                        <FontAwesomeIcon style={{'color':'#2684ff'}} icon={faBitbucket} /></li>
                         <li>Terminal&nbsp;
                         <FontAwesomeIcon style={{'color':'#000'}} icon={faTerminal} /></li>
                         <li style={{'display':'flex'}}>Tailwind Css&nbsp;
